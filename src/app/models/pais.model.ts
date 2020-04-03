@@ -9,6 +9,6 @@ export interface Pais extends Mundo {
     countryInfo: CountryInfo;
 }
 
-class CountryInfo {
+interface CountryInfo {
     flag: string;
 }

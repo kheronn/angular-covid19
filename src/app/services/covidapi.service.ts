@@ -12,7 +12,6 @@ export class CovidapiService {
 
   constructor(private http: HttpClient) { }
 
-
   async getInfoMundo() {
     return await this.http.get<Mundo>(`${this.url}/all`)
     .toPromise()
