@@ -8,7 +8,7 @@ import { HttpClient } from '@angular/common/http';
 })
 export class CovidapiService {
 
-  url = 'https://corona.lmao.ninja'
+  url = 'https://corona.lmao.ninja/v2'
 
   constructor(private http: HttpClient) { }
 
